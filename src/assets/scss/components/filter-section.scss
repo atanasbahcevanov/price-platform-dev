@@ -1,0 +1,85 @@
+.filter-section{
+  background-color: white;
+
+  .header{
+    background-color: #FAFAFA;
+    h2{
+      font-size: 21px;
+      margin: 0px;
+      i{
+        font-size: 18px;        
+      }
+    }
+  }
+
+  h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .4px;
+    color: #313131;
+  }
+
+  h5{
+    font-size: 15px;
+    letter-spacing: .4px;
+    color: #313131;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+
+  .inputText{
+    width:100%;
+    height: 35px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding-left:12px;
+
+    color: #313131;
+
+    border: solid 1px #E1E1E1;
+  }
+
+  input::placeholder{
+    color: #ADADAD;
+  }
+
+  .checkbox{
+    list-style-type: none;
+    padding: 0px;
+  }
+
+
+  label{
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+
+  .btn-search{
+    width: 130px;
+    border: none;
+    height: 34px;
+    background-color: #08AA8F;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: .5px;
+  }
+
+  .btn-search:hover{
+    background-color: #1A896E;
+    cursor: pointer;
+  }
+
+  .btn-clear{
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: #313131;
+    border-bottom: 1px solid white;
+    padding-bottom: 0px;
+  }
+  .btn-clear:hover{
+    border-bottom: 1px solid #08AA8F;
+    cursor: pointer;
+  }
+}

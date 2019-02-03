@@ -1,0 +1,43 @@
+.accordion-wrapper{
+    h3{
+        background-color: #FAFAFA;
+        width: 100%;
+        font-size: 19px;
+        font-weight: 600;
+        padding: 10px 20px;
+        margin: 0px;
+        // box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+        z-index: 21;
+    }
+    .section{
+        // z-index: -10;
+        
+
+        .card-sections{
+            padding: 9px;
+        
+            h5{
+               .btn{
+                    background-color: transparent;
+                    color: white;
+                    font-weight: 500;
+                    padding: 0px;
+                    width: 100%;
+                    font-size: 14px;
+               }   
+            }
+        }
+
+
+        .cheaper{
+            background-color: #24A081;
+        }
+        .same{
+            background-color: #F9B13D;
+        }
+        .expensive{
+            background-color: #F24E4F;
+        }
+    }
+}
+

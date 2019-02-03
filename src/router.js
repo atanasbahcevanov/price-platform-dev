@@ -1,6 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
 import Home from './views/Home.vue'
+import Catalogue from './views/Catalogue.vue'
+import Competitors from './views/Competitors.vue'
+import Suggestions from './views/Suggestions.vue'
+import Alerts from './views/Alerts.vue'
+import Report from './views/Report.vue'
+import Connections from './views/Connections.vue'
 
 Vue.use(Router)
 
@@ -10,16 +17,38 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'dashboard',
       component: Home
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      path: '/catalogue',
+      name: 'catalogue',
+      component: Catalogue
+    },
+    {
+      path: '/competitors',
+      name: 'competitors',
+      component: Competitors
+    },
+    {
+      path: '/suggestions',
+      name: 'suggestions',
+      component: Suggestions
+    },
+    {
+      path: '/alerts',
+      name: 'alerts',
+      component: Alerts
+    },
+    {
+      path: '/report',
+      name: 'report',
+      component: Report
+    },
+    {
+      path: '/connections',
+      name: 'connections',
+      component: Connections
     }
   ]
 })

@@ -1,0 +1,23 @@
+@import "components/header";
+@import "components/footer";
+
+@import "components/main-dashboard.scss";
+
+@import "components/table.scss";
+@import "components/competitors.scss";
+
+@import "components/spinner.scss";
+
+@import "components/alert.scss";
+
+
+@import "components/filter-section.scss";
+
+@import "components/general-components.scss";
+
+body{
+    // font-family: 'Open Sans', sans-serif;
+    background-color: #EFEFEF;
+}
+
+
