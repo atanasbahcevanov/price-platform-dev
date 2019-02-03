@@ -1,6 +1,5 @@
 <template>
   <div class="navigation-section sticky">
-
     <div class="menu-holder nav">
       <div class="w-100 bg-white">
         <div class="col-12 order-md-1 pt-3 pb-3">
@@ -19,7 +18,15 @@
                 </router-link>
 
                 <span class="mobile-profile d-sm-flex d-flex d-md-none d-lg-none d-xl-none">
-                  <FontAwesomeIcon icon="user-circle"></FontAwesomeIcon>
+
+                  <b-dropdown variant="link" right no-caret>
+                    <template slot="button-content">
+                      <FontAwesomeIcon icon="user-circle"></FontAwesomeIcon>
+                    </template>
+                    <b-dropdown-item href="#">Settings</b-dropdown-item>
+                    <hr>
+                    <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+                  </b-dropdown>
                 </span>
               </div>
               <div class="col-md-5 d-flex align-items-center">
@@ -34,18 +41,16 @@
                     <FontAwesomeIcon icon="question-circle" class="ml-1 mr-1"></FontAwesomeIcon>
                   </a>
                   |
-                  
-                    <b-dropdown variant="link" right no-caret>
-                  <template slot="button-content">
-                   <span class="dropbtn ml-2">My account
-                    <FontAwesomeIcon icon="angle-down" class="ml-2 arrow"></FontAwesomeIcon>
-                  </span>
-                  </template>
-                  <b-dropdown-item href="#">Settings</b-dropdown-item>
-                  <hr>
-                  <b-dropdown-item href="#">Sign Out</b-dropdown-item>
-                </b-dropdown>
-
+                  <b-dropdown variant="link" right no-caret>
+                    <template slot="button-content">
+                      <span class="dropbtn ml-2">My account
+                        <FontAwesomeIcon icon="angle-down" class="ml-2 arrow"></FontAwesomeIcon>
+                      </span>
+                    </template>
+                    <b-dropdown-item href="#">Settings</b-dropdown-item>
+                    <hr>
+                    <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+                  </b-dropdown>
                 </div>
               </div>
             </div>

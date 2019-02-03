@@ -26,6 +26,7 @@
   button{
     font-size: 28px;
     color: #353535;
+    padding:0px;
   }
 }
 .mobile-profile-left:hover{
@@ -184,6 +185,10 @@
 
       font-size: 14px;
 
+
+      .btn-link{
+        padding:0px;
+      }
       a{
         cursor: pointer;
         color: #1C9479;
@@ -201,11 +206,16 @@
 
     
       .dropbtn {
+        color: #353535;
         cursor: pointer;
+        font-size: 14px;
       }
       .dropbtn:hover{
         color: #1C9479;
-        
+      }
+      
+      button{
+        text-decoration: none!important;
       }
       
       .dropdown {
