@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="148px" height="148px" viewBox="0 0 148 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Bar Chart Empty Table</title>
+    <desc>Bar Chart Empty Table</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.149665179">
+        <g id="dashboard---Alert" transform="translate(-800.000000, -459.000000)" fill="#000000">
+            <g id="Group-5" transform="translate(763.000000, 422.000000)">
+                <path d="M92.5,185 L129.5,185 L129.5,37 L92.5,37 L92.5,185 Z M37,185 L74,185 L74,111 L37,111 L37,185 Z M148,83.25 L148,185 L185,185 L185,83.25 L148,83.25 Z" id="Fill-3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -14,7 +14,7 @@
                 </a>
 
                 <router-link to="/">
-                  <img src="https://i.ibb.co/R9zjy0b/Logo-header.png" height="30">
+                  <img src="../assets/logo.png" height="30">
                 </router-link>
 
                 <span class="mobile-profile d-sm-flex d-flex d-md-none d-lg-none d-xl-none">
