@@ -1,0 +1,53 @@
+
+.footer{
+    color:white;
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h6{
+        font-family: "Nunito";
+        font-weight: 700;
+        text-align: left;
+    }
+
+    li{
+        font-size: 14px;
+        letter-spacing: .1px;
+        font-weight: 400;
+        font-family: "Nunito";
+        text-align: left;
+        padding-bottom: 4px;
+    }
+
+    p{
+        font-size: 14px;
+        letter-spacing: .1px;
+        font-weight: 400;
+        font-family: "Nunito";
+        text-align: left;
+        line-height: 23px;
+    }
+
+    ul{
+        list-style-type: none;
+        padding: 0px
+    }
+
+    .copyright{
+        font-family: "Nunito";
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    a{
+        color: white;
+        padding: 0px;
+        padding-bottom: 5px;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    
+}

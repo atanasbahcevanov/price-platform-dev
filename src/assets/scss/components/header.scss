@@ -1,3 +1,5 @@
+
+// GENERAL + DASHBOARD
 .sticky{
   position:sticky;
   top:0px;
@@ -342,4 +344,81 @@
   }
   
   
-  
+  // LANDING
+  .navbar-small{
+    padding: 0;
+    height: 40px;
+
+    li:hover {
+      background-color: transparent!important;
+    }
+
+    a:hover{
+      text-decoration: underline;
+    }
+
+    .nav-item-tiny{
+      padding:0px!important;
+      font-size: 12px!important;
+      height: 25px;
+    }
+
+    .nav-item-tiny-bar{
+      padding:2px 0px!important;
+      font-size: 12px !important;
+      height: 25px;
+      margin-top: 9px;
+    }
+  }
+
+  .second-row-menu{
+    padding-top: 4px;
+    justify-content: flex-end;
+    color: #2c3e50;
+    a, button{
+      color: #2c3e50;
+    }
+    a{
+      padding-right: 9px;
+    }
+    button{
+      padding: 0px;
+    }
+    button:hover{
+      color:#197E63;
+    }
+  }
+
+  .sign-up{
+    display: inline-block;
+    color: #1A896E!important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 120px;
+    font-weight: bold;
+    text-align: center!important;
+  }
+  .sign-up:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .sign-in{
+    display: inline-block;
+    color: white !important;
+    background-color: #1A896E;
+    border: 2px solid #1A896E;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 120px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center!important;
+  }
+  .sign-in:hover{
+    color: #1A896E!important;
+    border: 2px solid #1A896E;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+

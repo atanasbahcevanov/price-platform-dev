@@ -1,0 +1,147 @@
+.article-section{
+    .reading-time{
+        color: #1A896E;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .aricle-image{
+        position: absolute;
+        z-index: 10;
+        top: -140px;
+        width: 100%;
+        height: 370px;
+        object-fit: cover;
+    }
+
+}
+
+.browse-section{
+    .content-header{
+        .col-12{
+            border-top: 4px solid #1A896E;
+
+        }
+
+        .ver-align{
+            padding-top: 58px;
+        }
+
+        .industry-title{
+           
+
+            display: inline-block;
+            font-weight: 600;
+            font-size: 28px;
+            margin: 0px;
+            line-height: 70px;
+        }
+        
+
+        width: 100%; 
+        height: 300px;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .list-section{
+        .industry-header{
+            img{
+                position:relative;
+                width:50px;
+                height:48px;
+                top:-10px;
+            }
+            h1{
+                font-size: 2.4em;
+            }
+        }
+
+        h3{
+            font-weight: bold;
+        }
+        p{
+            
+        }
+        img{
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+        .learn-more{
+            display: block;
+            color: white !important;
+            background-color: #1A896E;
+            border: 2px solid #1A896E;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            width: 145px;
+            border-radius: 4px;
+            font-weight: bold;
+            float: right;
+            text-align: center!important;
+        }
+        .learn-more:hover{
+            color: #1A896E!important;
+            border: 2px solid #1A896E;
+            background-color: white;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+}
+
+
+@media(max-width:600px){
+    .content-header{
+        .industry-title{
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width:768px){
+    .article-section {
+        .aricle-image {
+            top: -140px;
+            height: 370px;
+        }
+    }
+}
+
+@media(max-width:992px){
+    .article-section {
+        .aricle-image {
+            top: -140px!important;
+            height: 530px!important;
+            position: initial;
+        }
+    }
+}
+
+@media(max-width:1000px){
+    .article-section {
+        .aricle-image {
+            top: -140px;
+            height: 370px;
+        }
+    }
+}
+
+@media(max-width:1200px){
+    .article-section {
+        .aricle-image {
+            top: -130px;
+            height: 410px;
+        }
+    }
+}
+@media(min-width:1201px){  
+    .article-section {
+        .aricle-image {
+            top: -140px;
+            height: 370px;
+        }
+    }
+}

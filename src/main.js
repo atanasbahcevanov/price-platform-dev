@@ -12,6 +12,7 @@ import {
   faQuestionCircle,
   faStoreAlt,
   faAngleDown,
+  faChevronDown,
   faChartLine,
   faNewspaper,
   faTrophy,
@@ -19,10 +20,18 @@ import {
   faBell,
   faFileInvoiceDollar,
   faDrawPolygon,
-  faUserCircle
+  faUserCircle,
+  faGlobeAmericas,
+  faCheck
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+import FlagIcon from 'vue-flag-icon'
+
+Vue.use(FlagIcon);
 
 Vue.use(BootstrapVue);
 
@@ -31,6 +40,7 @@ library.add(
   faQuestionCircle,
   faStoreAlt,
   faAngleDown,
+  faChevronDown,
   faChartLine,
   faNewspaper,
   faTrophy,
@@ -38,7 +48,9 @@ library.add(
   faBell,
   faFileInvoiceDollar,
   faDrawPolygon,
-  faUserCircle
+  faUserCircle,
+  faGlobeAmericas,
+  faCheck
 )
 
 Vue.component('FontAwesomeIcon', FontAwesomeIcon)
@@ -50,5 +62,8 @@ import './assets/scss/app.scss'
 
 new Vue({
   router,
+  created () {
+    AOS.init()
+  },
   render: h => h(App)
 }).$mount('#app')

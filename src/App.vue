@@ -1,22 +1,40 @@
 <template>
   <div id="app">
-     <Header/>
-   
-    <router-view/>
+
+    <transition :name="transitionDirection" mode="out-in" @before-enter="afterEnter" appear>
+      <router-view :key="$route.fullPath"/>
+    </transition>
+
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Header from '@/components/Header.vue'
+
+
 
 export default {
   name: 'dashboard',
   components: {
-    Header
+   
+  },
+  data() {
+    return {
+      transitionDirection: "slide-left-"
+    };
+  },
+  methods: {
+    goBack() {
+      this.$router.go(-1);
+    },
+    afterEnter() {
+      this.$root.$emit("scrollAfterEnter");
+    }
   }
 }
 </script>
+
+<
 
 <style lang="scss">
 #app {
@@ -34,4 +52,26 @@ export default {
     }
   }
 }
+
+.slide-left--enter-active,
+.slide-left--leave-active,
+.slide-right--enter-active,
+.slide-right--leave-active {
+  // position: absolute;
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+.slide-left--enter,
+.slide-right--leave-to {
+  opacity: 0;
+  transform: translate3d(20vw, 0, 0);
+}
+
+.slide-right--enter,
+.slide-left--leave-to {
+  opacity: 0;
+  transform: translate3d(-20vw, 0, 0);
+}
+
+
 </style>

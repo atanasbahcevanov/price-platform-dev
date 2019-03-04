@@ -3,8 +3,7 @@
     <!-- filter header -->
     <div class="shadow-sm pt-2 pb-2 header pl-3">
       <h2>
-            <font-awesome-icon icon="faChartLine" />
-            Dashboard
+        <font-awesome-icon icon="faChartLine"/>Dashboard
       </h2>
     </div>
 

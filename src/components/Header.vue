@@ -13,7 +13,7 @@
                   <FontAwesomeIcon icon="bars"></FontAwesomeIcon>
                 </a>
 
-                <router-link to="/">
+                <router-link to="/dashboard">
                   <img src="../assets/logo.png" height="30">
                 </router-link>
 
@@ -61,7 +61,7 @@
           <b-card>
             <ul id="menu" class="navbar-nav mr-auto menu-mobile">
               <li class="nav-item">
-                <router-link to="/" class="nav-link">
+                <router-link to="/dashboard" class="nav-link">
                   <FontAwesomeIcon icon="chart-line" class="mr-2"></FontAwesomeIcon>Dashboard
                 </router-link>
               </li>
@@ -107,7 +107,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul id="menu" class="navbar-nav mr-auto">
                     <li class="nav-item m-2">
-                      <router-link to="/" class="nav-link">
+                      <router-link to="/dashboard" class="nav-link">
                         <FontAwesomeIcon icon="chart-line" class="mr-2"></FontAwesomeIcon>Dashboard
                       </router-link>
                     </li>

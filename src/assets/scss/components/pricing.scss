@@ -1,0 +1,159 @@
+.pricing-section-content-header{
+    .ver-align{
+        padding-top: 78px;
+    }
+
+    .industry-title{
+       
+
+        display: inline-block;
+        font-weight: 400;
+        font-size: 28px;
+        margin: 0px;
+        line-height: 70px;
+    }
+    
+
+    width: 100%; 
+    height: 260px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pricing-section{
+    
+    .popular{
+        border: 4px solid #197E63;
+    }
+    .popular-box{
+        position: absolute;
+        width:100px;
+        height: 20px;
+        font-size: 12px;
+        font-weight: bold;
+        top:16px;
+        right: 24px;
+        text-align: center;
+        color:white;
+        background-color: #197E63;
+        padding-top: 1px;
+    }
+
+    h6{
+        font-size: 26px;
+        color: #197E63;
+    }
+    p{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+    }
+    hr{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    h1{
+        padding-top: 10px;
+        line-height: 30px;
+    }
+
+    ul{
+        list-style-type: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 20px;
+    }
+    svg{
+        margin-right: 10px;
+        color: #008970;
+    }
+    .get-started-btn{
+        background-color: #197E63;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        width: 220px;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 7px 26px;
+    }
+    .get-started-btn:hover{
+        color: #1A896E!important;
+        border: 2px solid #1A896E;
+        background-color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .not-available{
+        opacity: .5;
+    }
+
+    button{
+        background-color: #197E63;
+        color: white;
+        border: 2px solid white;
+        padding: 7px 30px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 4px;
+        font-weight: 500;
+        border-color: white;
+    }
+    button:hover{
+        color: #1A896E!important;
+        border: 2px solid #1A896E;
+        background-color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .request-form{
+        .row{
+            margin: 0px;
+        }
+    
+        color: #4E4E4E;
+        h2{
+            font-size: 24px;
+            font-weight: 200;
+        }
+    
+        input{
+            width:100%;
+            height: 40px;
+            margin-bottom: 15px;
+            padding-left:12px;
+    
+            font-family: "Nunito";
+            color: #4E4E4E;
+            font-weight: 400;
+    
+            border: solid 1px #E1E1E1;
+        }
+    
+        input::placeholder, select{
+            color: #ADADAD;
+            font-weight: 400;
+        }
+    
+        textarea{
+            width:100%;
+            resize: none;
+            padding-top: 5px;
+            padding-left:12px;
+            padding-right:12px;
+    
+            color: #4E4E4E;
+            font-weight: 400;
+    
+            border: solid 1px #E1E1E1;
+        }
+    
+        textarea::placeholder{
+            color: #ADADAD;
+        }
+    
+    }
+}
