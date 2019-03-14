@@ -475,7 +475,44 @@
 
 
 // Pill
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .industryPill{
+        .nav-item{
+            width:100%;
+        }
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .industryPill{
+        .nav-item{
+            width:100%;
+        }
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    .industryPill{
+        .nav-item{
+            width:50%;
+        }
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { .industryPill{
+    .nav-item{
+        width:20%;
+    }
+} }
+
 .industryPill{
+    .nav-item{
+        width:20%;
+    }
     img{
         width: 100%;
         height:450px;
@@ -483,6 +520,7 @@
     }
     .nav-link{
         border:none!important;
+        border-bottom: 4px solid #D8D8D8!important;
     }
     .learn-more-btn{
         display: block;
@@ -530,5 +568,69 @@
     }
     .tab-content{
         background-color: white;
+    }
+}
+
+// BROWSE
+.browse-header{
+    .ver-align{
+        padding-top: 75px;
+    }
+
+    .bg-white{
+        max-width: 170px;
+        background-color: #fff!important;
+    }
+
+    h1{
+        font-weight: 200;
+        color: #1A896E;
+
+        margin: 0px;
+        line-height: 80px;
+    }
+
+    width: 100%; 
+    height: 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.browse-container{
+    h3{
+        background-color: white;
+        font-weight: 400;
+        width: 70%;
+        font-size: 24px;
+        // height: 60px;
+
+        text-align: center;
+    
+    }
+
+    .browse-card{
+        background-size: cover;
+        background-position: center;
+
+        height: 250px;
+        width: 100%;
+    }
+
+    a{
+        position: relative;
+        display: block;
+        padding: 0px;
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        mark{
+            background-color: #1352AB;
+            color: white;
+        }
+        h3{
+            zoom: 1.2;
+        }
     }
 }

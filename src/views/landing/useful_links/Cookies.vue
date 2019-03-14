@@ -1,6 +1,5 @@
 <template>
   <div class="cookies-section">
-    <Header/>
     <div
       class="content-header"
       :style="{ backgroundImage: 'url(' + require('@/assets/img/cookies-bg.jpg') + ')' }"
@@ -107,19 +106,15 @@
         </div>
       </div>
     </div>
-    <Footer/>
   </div>
 </template>
 
 <script>
-import Header from "@/components/LandingHeader.vue";
-import Footer from "@/components/Footer.vue";
 
 export default {
   name: "Cookies",
   components: {
-    Header,
-    Footer
+
   }
 };
 </script>

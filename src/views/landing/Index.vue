@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Header/>
     <div class="landing-section">
       <div class="image-wrapper">
         <WorldMap/>
@@ -11,7 +10,7 @@
                 <h1>Pricing Analysis for the
                   <br>Next Generation of Retail
                 </h1>
-                <a class="mt-5">Request Demo</a>
+                <a href="/request-demo" class="mt-5">Request Demo</a>
                 <div class="container mt-5">
                   <div class="row">
                     <h6
@@ -76,14 +75,11 @@
         </div>
       </div>
     </div>
-    <Footer/>
   </div>
 </template>
 
 
 <script>
-import Header from "@/components/LandingHeader.vue";
-import Footer from "@/components/Footer.vue";
 
 import WorldMap from "@/components/landing/WorldMap.vue";
 import Hotspots from "@/components/landing/Hotspots.vue";
@@ -101,8 +97,6 @@ export default {
     IndustryPills,
     Testimonial,
     RequestDemo,
-    Header,
-    Footer
   }
 };
 </script>

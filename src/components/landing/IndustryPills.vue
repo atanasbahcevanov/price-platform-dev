@@ -9,14 +9,14 @@
       <div class="col-12">
         <b-card no-body>
           <b-tabs card v-model="tabIndex">
-            <b-tab title="Fashion & Beauty" :title-link-class="linkClass(0)" class="shadow-sm">
-              <div class="row pt-5 pb-5 shadow-sm">
+            <b-tab title="Fashion & Beauty" :title-link-class="linkClass(0)">
+              <div class="row pt-5 pb-5">
                 <div class="col-md-6">
                   <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
                 </div>
-                <div class="col-md-6 align-center text-left">
+                <div class="col-md-6 align-self-center text-left">
                   <h3
-                    class="slider-section-title"
+                    class="slider-section-title mt-2"
                   >Lorem ipsum dolor sit amet, contetur adipiscing elit</h3>
                   <p
                     class="slider-description"

@@ -1,14 +1,11 @@
 <template>
   <div>
-    <hr class="line-separator">
-    <div
-      class="content-header"
-      style="background-image:url()"
-    >
+    <div class="browse-header" :style="{ backgroundImage: 'url(' + require('@/assets/img/browse-header.jpg') + ')' }">
       <div class="container ver-align">
         <div class="row">
           <div class="col-12">
-            <h1 class="services-title bg-white pl-3 pr-3">Browse
+            <h1 class="services-title bg-white pl-3 pr-3">
+              Browse
               <span></span>
             </h1>
           </div>
@@ -17,85 +14,89 @@
     </div>
 
     <div class="container mt-5">
-      <div class="row browse-container">
-        {% comment %} {% include 'webapp', id: '4', type: 'list', slug: url_params.webapp_item, layout: 'browse' -%} {% endcomment %}
-        <!-- <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-3">
-          <a href="/about/who-we-are">
+      <div class="row">
+        <div class="col-lg-6 col-md-7 col-sm-12 col-12 text-left pb-5 ">
+          <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam officia quidem, ullam ipsa fugit facere magnam similique velit totam reiciendis esse aliquid inventore praesentium veritatis excepturi ab voluptatem maiores eos</h5>
+        </div>
+      </div>
+      <div class="row browse-container mb-5">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-3">
+          <router-link to="/industries/fashion-and-beauty">
             <div
               class="browse-card row m-0 justify-content-center align-items-center"
-              style="background-image:url()"
+              :style="{ backgroundImage: 'url(' + require('@/assets/img/fashion-thumb.jpg') + ')' }"
             >
-              <h3 class="pt-3 pb-3">Who We Are</h3>
+              <h3 class="pt-3 pb-3 shadow-sm">Fashion & Beauty</h3>
             </div>
-          </a>
+          </router-link>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-3">
-          <a href="/about/what-we-do">
+          <router-link to="/industries/sports">
             <div
               class="browse-card row m-0 justify-content-center align-items-center"
-              style="background-image:url()"
+              :style="{ backgroundImage: 'url(' + require('@/assets/img/sports-thumb.jpg') + ')' }"
             >
-              <h3 class="pt-3 pb-3">What We Do</h3>
+              <h3 class="pt-3 pb-3 shadow-sm">Sports</h3>
             </div>
-          </a>
+          </router-link>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-3">
-          <a href="/about/our-warehouses">
+          <router-link to="/industries/music">
             <div
               class="browse-card row m-0 justify-content-center align-items-center"
-              style="background-image:url()"
+              :style="{ backgroundImage: 'url(' + require('@/assets/img/music-thumb.jpg') + ')' }"
             >
-              <h3 class="pt-3 pb-3">Our Warehouses</h3>
+              <h3 class="pt-3 pb-3 shadow-sm">Music</h3>
             </div>
-          </a>
+          </router-link>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-3">
-          <a href="/about/it-solutions">
+          <router-link to="/industries/health-and-wellness">
             <div
               class="browse-card row m-0 justify-content-center align-items-center"
-              style="background-image:url()"
+              :style="{ backgroundImage: 'url(' + require('@/assets/img/health-thumb.jpg') + ')' }"
             >
-              <h3 class="pt-3 pb-3">IT Solutions</h3>
+              <h3 class="pt-3 pb-3 shadow-sm">Health & Wellness</h3>
             </div>
-          </a>
+          </router-link>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-3">
-          <a href="/about/work-for-us">
+          <router-link to="/industries/toys-and-games">
             <div
               class="browse-card row m-0 justify-content-center align-items-center"
-              style="background-image:url()"
+              :style="{ backgroundImage: 'url(' + require('@/assets/img/toys-thumb.jpg') + ')' }"
             >
-              <h3 class="pt-3 pb-3">Work For Us</h3>
+              <h3 class="pt-3 pb-3 shadow-sm">Toys & Games</h3>
             </div>
-          </a>
+          </router-link>
         </div>
 
         <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-3">
-          <a href="/about/our-partners">
+          <router-link to="/industries/entertainment">
             <div
               class="browse-card row m-0 justify-content-center align-items-center"
-              style="background-image:url()"
+              :style="{ backgroundImage: 'url(' + require('@/assets/img/entertainment-thumb.jpg') + ')' }"
             >
-              <h3 class="pt-3 pb-3">Our Partners</h3>
+              <h3 class="pt-3 pb-3 shadow-sm">Entertainment</h3>
             </div>
-          </a>
+          </router-link>
         </div>
-
-        <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-3">
-          <a href="/get-a-quote">
-            <div
-              class="browse-card row m-0 justify-content-center align-items-center"
-              style="background-image:url()"
-            >
-              <h3 class="pt-3 pb-3">Get a Quote</h3>
-            </div>
-          </a>
-        </div> -->
+        <!--  -->
       </div>
     </div>
   </div>
 </template>
+
+<script>
+
+export default {
+  name: "browse",
+  components: {
+
+  }
+};
+</script>

@@ -1,6 +1,5 @@
 <template>
   <div class="industry-section">
-    <Header/>
     <!--  -->
     <div
       class="content-header"
@@ -32,12 +31,12 @@
           <div class="industry-list-section shadow-sm p-3 text-left bg-white">
             <h2>Our Industries</h2>
             <hr>
-            <router-link to="/industry/fashion-and-beauty" class="nav-link">Fashion & Beauty</router-link>
-            <router-link to="/industry/sports" class="nav-link">Sports</router-link>
-            <router-link to="/industry/music" class="nav-link">Music</router-link>
-            <router-link to="/industry/health-and-wellness" class="nav-link">Health & Wellness</router-link>
-            <router-link to="/industry/toys-and-games" class="nav-link">Toys & Games</router-link>
-            <router-link to="/industry/entertainment" class="nav-link last">Entertainment</router-link>
+            <router-link to="/industries/fashion-and-beauty" class="nav-link">Fashion & Beauty</router-link>
+            <router-link to="/industries/sports" class="nav-link">Sports</router-link>
+            <router-link to="/industries/music" class="nav-link">Music</router-link>
+            <router-link to="/industries/health-and-wellness" class="nav-link">Health & Wellness</router-link>
+            <router-link to="/industries/toys-and-games" class="nav-link">Toys & Games</router-link>
+            <router-link to="/industries/entertainment" class="nav-link last">Entertainment</router-link>
           </div>
           <div class="contact-section mt-5 shadow-sm p-4 text-center">
             <h6 class="mt-2">Want to request demo?</h6>
@@ -45,7 +44,7 @@
             <p class="desc pb-3">You will receive an email with the following instructions.
             <br>Thank you!
             </p>
-            <a class="mb-4" href="#">Request Demo</a>
+            <a class="mb-4" href="/request-demo">Request Demo</a>
           </div>
         </div>
       </div>
@@ -115,19 +114,15 @@
         <!--  -->
       </div>
     </div>
-    <Footer/>
   </div>
 </template>
 
 <script>
-import Header from "@/components/LandingHeader.vue";
-import Footer from "@/components/Footer.vue";
 
 export default {
   name: "competitors",
   components: {
-    Header,
-    Footer
+
   }
 };
 </script>

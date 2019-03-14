@@ -1,6 +1,5 @@
 <template>
   <div class="useful-links-section">
-    <Header/>
     <!--  -->
     <div
       class="content-header"
@@ -147,21 +146,18 @@
       </div>
     </div>
     <!--  -->
-    <Footer/>
+    <div class="mt-5 mb-5 pt-5"></div>
   </div>
 </template>
 
 
 
 <script>
-import Header from "@/components/LandingHeader.vue";
-import Footer from "@/components/Footer.vue";
 
 export default {
   name: "faq",
   components: {
-    Header,
-    Footer
+
   },
   data() {
     return {

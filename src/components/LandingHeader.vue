@@ -59,7 +59,7 @@
                 </router-link>
 
                 <span class="mobile-profile d-sm-flex d-flex d-md-none d-lg-none d-xl-none">
-                  <b-dropdown variant="link" right no-caret>
+                  <b-dropdown class="languages-selector" variant="link" right no-caret>
                     <template slot="button-content">
                       <font-awesome-icon :icon="['fas', 'globe-americas']" class="globe"/>
                     </template>
@@ -89,7 +89,7 @@
                 <div class="p-0">
                   <router-link to="/news">News</router-link>
                   <span>|</span>
-                  <b-dropdown variant="link" right no-caret>
+                  <b-dropdown class="languages-selector" variant="link" right no-caret>
                     <template slot="button-content">
                       <span class="dropbtn ml-2">
                         <font-awesome-icon :icon="['fas', 'globe-americas']" class="globe"/>
@@ -135,17 +135,17 @@
                 <router-link to="/pricing" class="nav-link">Pricing</router-link>
               </li>
               <li class="nav-item">
-                <router-link to="#" class="nav-link">About</router-link>
+                <router-link to="/about-us" class="nav-link">About</router-link>
               </li>
               <!--  -->
               <!-- Auth Mobile -->
               <li class="nav-item m-auto">
-                <router-link to="#" class="sign-up">
-                  <strong>Sign up</strong>
+                <router-link to="/sign-in" class="sign-up">
+                  <strong>Sign in</strong>
                 </router-link>
               </li>
               <li class="nav-item m-auto">
-                <router-link to="#" class="sign-in">Get Started</router-link>
+                <router-link to="/request-demo" class="sign-in">Get Started</router-link>
               </li>
               <!--  -->
             </ul>
@@ -172,7 +172,7 @@
                       <router-link to="/pricing" class="nav-link">Pricing</router-link>
                     </li>
                     <li class="nav-item m-2">
-                      <router-link to="/report" class="nav-link">About</router-link>
+                      <router-link to="/about-us" class="nav-link">About</router-link>
                     </li>
                   </ul>
                   <!--  -->
@@ -180,10 +180,10 @@
                   <div class="navbar-end">
                     <div class="navbar-item">
                       <div class="buttons">
-                        <router-link to="#" class="sign-up">
-                          <strong>Sign up</strong>
+                        <router-link to="/sign-in" class="sign-up">
+                          <strong>Sign in</strong>
                         </router-link>
-                        <router-link to="#" class="sign-in">Get Started</router-link>
+                        <router-link to="/request-demo" class="sign-in">Get Started</router-link>
                       </div>
                     </div>
                   </div>

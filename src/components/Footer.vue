@@ -15,22 +15,22 @@
           <h6>Industries</h6>
           <ul>
             <li>
-              <router-link to="/industry/fashion-and-beauty">Fashion & Beauty</router-link>
+              <router-link to="/industries/fashion-and-beauty">Fashion & Beauty</router-link>
             </li>
             <li>
-              <router-link to="/industry/sports">Sports</router-link>
+              <router-link to="/industries/sports">Sports</router-link>
             </li>
             <li>
-              <router-link to="/industry/music">Music</router-link>
+              <router-link to="/industries/music">Music</router-link>
             </li>
             <li>
-              <router-link to="/industry/health-and-wellness">Health & Wellness</router-link>
+              <router-link to="/industries/health-and-wellness">Health & Wellness</router-link>
             </li>
             <li>
-              <router-link to="/industry/toys-and-games">Toys & Games</router-link>
+              <router-link to="/industries/toys-and-games">Toys & Games</router-link>
             </li>
             <li>
-              <router-link to="/industry/entertainment">Entertainment</router-link>
+              <router-link to="/industries/entertainment">Entertainment</router-link>
             </li>
           </ul>
         </div>

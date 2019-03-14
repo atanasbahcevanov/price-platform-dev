@@ -1,6 +1,5 @@
 <template>
   <div class>
-    <Header/>
     <!--  -->
     <div
       class="pricing-section-content-header"
@@ -172,25 +171,22 @@
             adipisicing elit. Praesentium quam dolor, nostrum vitae obcaecati sapiente suscipit ullam
             itaque, cum minus enim corporis necessitatibus rerum optio voluptate officia commodi quis ea.
           </p>
-          <button type="submit" class="mt-3">Contact Advisor</button>
+          <br>
+          <a  href="mailto:advisor@priceplatform.com?Subject=Contact%20Advisor" target="_top" class="mt-3">Contact Advisor</a>
         </div>
       </div>
       <!--  -->
     </div>
     <!--  -->
-    <Footer/>
   </div>
 </template>
 
 <script>
-import Header from "@/components/LandingHeader.vue";
-import Footer from "@/components/Footer.vue";
 
 export default {
   name: "pricing",
   components: {
-    Header,
-    Footer
+
   }
 };
 </script>

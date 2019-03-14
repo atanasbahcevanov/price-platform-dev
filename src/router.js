@@ -16,12 +16,21 @@ import Index from './views/landing/Index.vue'
 
 import Pricing from './views/landing/Pricing.vue'
 
+//Action
+import SignIn from './views/landing/SignIn.vue'
+import RequestDemo from './views/landing/RequestDemo.vue'
+
 // useful links
 import TermsAndConditions from './views/landing/useful_links/Terms.vue'
 import PrivacyPolicy from './views/landing/useful_links/PrivacyPolicy.vue'
 import Cookies from './views/landing/useful_links/Cookies.vue'
 import FAQ from './views/landing/useful_links/Faq.vue'
 import Support from './views/landing/useful_links/Support.vue'
+import News from './views/landing/useful_links/News.vue'
+import NewsArticle from './views/landing/useful_links/NewsArticle.vue'
+import About from './views/landing/About.vue'
+
+
 // industies
 import IndustryBrowse from './views/landing/industry/Browse.vue'
 import IndustryFashion from './views/landing/industry/Fashion_Beauty.vue'
@@ -44,6 +53,21 @@ export default new Router({
       path: '/',
       name: 'index',
       component: Index
+    },
+    {
+      path: '/about-us',
+      name: 'about',
+      component: About
+    },
+    {
+      path: '/sign-in',
+      name: 'signin',
+      component: SignIn
+    },
+    {
+      path: '/request-demo',
+      name: 'requestdemo',
+      component: RequestDemo
     },
     {
       path: '/industries',
@@ -159,6 +183,16 @@ export default new Router({
       path: '/support',
       name: 'support',
       component: Support
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: News
+    },
+    {
+      path: '/news-article',
+      name: 'newsarticle',
+      component: NewsArticle
     }
   ]
 })

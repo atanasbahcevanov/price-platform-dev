@@ -3,7 +3,9 @@
     <div class="container article-section mt-5 pt-5">
       <div class="row">
         <div class="col-6"></div>
-        <div class="text-lg-left text-md-left text-sm-center text-center col-lg-6 col-md-6 col-sm-12 col-12 mb-2 reading-time">May 7, 2019 • 9 minutes to read</div>
+        <div
+          class="text-lg-left text-md-left text-sm-center text-center col-lg-6 col-md-6 col-sm-12 col-12 mb-2 reading-time"
+        >May 7, 2019 • 9 minutes to read</div>
       </div>
       <!--  -->
       <div class="article-content shadow-sm bg-white text-left p-5">
@@ -17,9 +19,7 @@
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-12">
             <h2>Lorem ipsum dolor</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus, vestibulum quis accumsan a, convallis ut neque. Donec consectetur vestibulum sem, eu euismod erat. Nullam gravida arcu sed sem ultricies, elementum eleifend erat aliquet. Fusce hendrerit venenatis elit sit amet tincidunt. Mauris convallis consequat porta. Donec viverra et dolor vel iaculis. Duis orci urna, facilisis at ornare scelerisque, blandit quis nibh. Curabitur mi diam, condimentum eu efficitur eget, volutpat in velit. In et mollis odio.
-            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nibh metus, vestibulum quis accumsan a, convallis ut neque. Donec consectetur vestibulum sem, eu euismod erat. Nullam gravida arcu sed sem ultricies, elementum eleifend erat aliquet. Fusce hendrerit venenatis elit sit amet tincidunt. Mauris convallis consequat porta. Donec viverra et dolor vel iaculis. Duis orci urna, facilisis at ornare scelerisque, blandit quis nibh. Curabitur mi diam, condimentum eu efficitur eget, volutpat in velit. In et mollis odio.</p>
           </div>
         </div>
         <div class="row">
@@ -50,8 +50,9 @@
 <script>
 
 export default {
-  name: "competitors",
+  name: "newsarticle",
   components: {
+
   }
 };
 </script>

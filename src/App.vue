@@ -1,44 +1,38 @@
 <template>
   <div id="app">
-
-    <transition :name="transitionDirection" mode="out-in" @before-enter="afterEnter" appear>
+    <Header/>
+    <transition name="moveInUp">
       <router-view :key="$route.fullPath"/>
     </transition>
-
+    <Footer/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-
-
+import Header from "@/components/LandingHeader.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
-  name: 'dashboard',
+  name: "dashboard",
   components: {
-   
+    Header,
+    Footer
   },
   data() {
     return {
-      transitionDirection: "slide-left-"
+      transitionDirection: "slide-up-"
     };
   },
-  methods: {
-    goBack() {
-      this.$router.go(-1);
-    },
-    afterEnter() {
-      this.$root.$emit("scrollAfterEnter");
-    }
-  }
-}
+  methods: {}
+};
 </script>
 
-<
+
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -48,29 +42,18 @@ export default {
   a {
     color: #2c3e50;
     &.router-link-exact-active {
-      color: #1A896E;
+      color: #1a896e;
     }
   }
 }
 
-.slide-left--enter-active,
-.slide-left--leave-active,
-.slide-right--enter-active,
-.slide-right--leave-active {
-  // position: absolute;
-  transition: opacity 0.6s, transform 0.6s;
+.moveInUp-enter-active {
+  opacity: 1;
+  transition: opacity .5s;
 }
 
-.slide-left--enter,
-.slide-right--leave-to {
+.moveInUp-leave-active{
   opacity: 0;
-  transform: translate3d(20vw, 0, 0);
-}
-
-.slide-right--enter,
-.slide-left--leave-to {
-  opacity: 0;
-  transform: translate3d(-20vw, 0, 0);
 }
 
 

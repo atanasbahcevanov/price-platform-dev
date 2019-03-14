@@ -1,7 +1,7 @@
 <template>
   <div class="testimonial-section container mt-5 mb-5">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 text-center w-100">
         <h2>Learn from the best</h2>
       </div>
     </div>

@@ -1,6 +1,5 @@
 <template>
   <div class="privacy-section">
-    <Header/>
     <div
       class="content-header"
       :style="{ backgroundImage: 'url(' + require('@/assets/img/privacy-bg.jpg') + ')' }"
@@ -131,19 +130,15 @@
       </div>
     </div>
     <!--  -->
-    <Footer/>
   </div>
 </template>
 
 <script>
-import Header from "@/components/LandingHeader.vue";
-import Footer from "@/components/Footer.vue";
 
 export default {
   name: "PrivacyPolicy",
   components: {
-    Header,
-    Footer
+
   }
 };
 </script>
